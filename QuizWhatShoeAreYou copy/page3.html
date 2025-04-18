@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .question { margin-bottom: 20px; }
+    #result { display: none; font-size: 1.2em; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+  <div id="quiz">
+    <div class="question">
+      <p>Where would you go on a Friday Night?</p>
+      <button onclick="addScore('2');addScore('3');addScore('4')">A. Gym</button>
+      <button onclick="addScore('6');addScore('4');addScore('5')">B. Rave</button>
+      <button onclick="addScore('6');addScore('1');addScore('3')">C. Bar</button>
+      <button onclick="addScore('7');addScore('4');addScore('1')">D. Home</button>
+    </div>
+
+    <div class="question">
+      <p>What Drink Would You Choose Right Now?</p>
+      <button onclick="addScore('1');addScore('7');addScore('4')">A. Starbucks Frappe</button>
+      <button onclick="addScore('2');addScore('5');addScore('6');addScore('4')">B. Monster Energy</button>
+      <button onclick="addScore('2');addScore('7');addScore('3')">C. Fairlife 32g Protein Drink</button>
+      <button onclick="addScore('1');addScore('2');addScore('3');addScore('7')">D. Water</button>
+    </div>
+
+    <div class="question">
+      <p>What City in the US Would You Live In?</p>
+      <button onclick="addScore('3');addScore('4');addScore('5')">A. Chicago, Illinois</button>
+      <button onclick="addScore('3');addScore('5');addScore('4');addScore('7')">B. New York City, New York</button>
+      <button onclick="addScore('1');addScore('6');addScore('7')">C. Los Angeles, California</button>
+      <button onclick="addScore('1');addScore('2');addScore('6')">D. Cleveland, Ohio</button>
+    </div>
+
+    <div class="question">
+        <p>How Would You Listen To Music?</p>
+        <button onclick="addScore('1');addScore('2');addScore('7')">A. Headphones</button>
+        <button onclick="addScore('2');addScore('3');addScore('5')">B. Speaker</button>
+        <button onclick="addScore('1');addScore('4');addScore('5');addScore('6')">C. Earbuds</button>
+        <button onclick="addScore('1');addScore('6');addScore('7')">D. I Don't Listen to Music</button>
+      </div>
+
+      <div class="question">
+        <p>How Do You Take Notes?</p>
+        <button onclick="addScore('1');addScore('4');addScore('5');addScore('6')">A. Pen/Paper</button>
+        <button onclick="addScore('1');addScore('2');addScore('7')">B. Laptop/IPad</button>
+        <button onclick="addScore('2');addScore('3')">C. Phone</button>
+        <button onclick="addScore('2');addScore('4');addScore('5')">D. I Don't Need Notes</button>
+      </div>
+      <div class="question">
+        <p>Favourite Social Media Platform?</p>
+        <button onclick="addScore('1');addScore('3');addScore('6');addScore('5');addScore('7')">A. Instagram</button>
+        <button onclick="addScore('2');addScore('6')">B. Twitter</button>
+        <button onclick="addScore('3');addScore('4');addScore('5')">C. TikTok</button>
+        <button onclick="addScore('2');addScore('4');addScore('5')">D. Tumblr</button>
+      </div>
+
+    <button onclick="showResult()">So, What Shoe am I?</button>
+  </div>
+
+  <div id="result"></div>
+
+  
+
+  <script>
+    function showResult() {
+      // Redirect to page4.html
+      window.location.href = "page4.html";
+    }
+  </script>
+
+<script src="page3.js"></script>
+  
+</body>
+</html>

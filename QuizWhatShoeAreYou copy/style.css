@@ -1,0 +1,26 @@
+
+
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Impact', fantasy;
+    box-sizing: border-box;
+}
+
+p{
+    color: rgb(219, 38, 53);
+}
+html {
+    scroll-behavior: smooth; 
+    text-align: center;
+}
+body{
+    background: #13101d;
+    color: #fff;
+}
+
+a{
+    /*text-decoration: none;*/
+    color: rgb(255, 0, 0);
+    /* padding: 50px; */
+}
