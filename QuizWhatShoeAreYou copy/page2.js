@@ -4,5 +4,5 @@ userInput.addEventListener("change", nameEntered)
 
 function nameEntered(){
 
-    localStorage.setItem("name", userInput.value)
+    localStorage.setItem("nameInput", userInput.value)
 }

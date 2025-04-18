@@ -34,5 +34,8 @@ const score = {
     document.getElementById('result').textContent = resultText;
 
     localStorage.setItem("resultInput",resultText)
+
+    window.location.href = "page4.html";
+
   }
   
