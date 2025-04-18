@@ -13,7 +13,7 @@ const score = {
   const results = {
     1: "Doc Martens,1460 Smooth Leather Lace Up Boots",
     2: "Supreme x Nike SB Dunk High (2003)",
-    3: "Jeremy Scott x Wings 4.0 'cloud white.",
+    3: "Jeremy Scott x Wings 4.0 'cloud white",
     4: "Isabel Marant Bekett Leather Wedge Sneakers",
     5: "Rick Owens DRKSHDW Sneakers",
     6: "AS98 'Torey' Leather Ankle Boots",
@@ -22,7 +22,7 @@ const score = {
   
   function addScore(type) {
     score[type] += 1;
-    console.log(score); // You can remove this in final version
+    console.log(score);
   }
   
   function showResult() {
